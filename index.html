@@ -553,7 +553,7 @@ section {
  }
 .service-section {
   padding: 64px 1.4rem;
-  padding-top: 20px;
+  padding-top: 40px;
  }
 .service-01 {
   background: var(--green-light);
@@ -623,7 +623,9 @@ section {
   font-size: 0.9rem;
   color: var(--text-mid);
 }
-.service-section:nth-child(3) .recommend-box { border-left-color: var(--brown); }
+.service-section:nth-child(3) .recommend-box {
+  border-left-color: var(--brown); 
+}
 .ai-logos {
   display: flex;
   flex-wrap: wrap;
@@ -643,7 +645,17 @@ section {
   background: #f2f6f8;
   padding: 2.5rem 1.4rem 2rem;
 }
-
+.seiri-map-section {
+  background: var(--cream);
+  padding: 48px 1.4rem 40px;
+}
+.seiri-map-img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 0px;
+}
 /* ===== 自己紹介 ===== */
 #about {
   background: var(--green-light);
@@ -1597,7 +1609,16 @@ footer {
       </p>
     </div>
   </div>
-
+<!-- 3つの整理 図解 -->
+<div class="seiri-map-section">
+  <div class="inner">
+    <img
+      src="three-types-of-seiri.png"
+      alt="散らかった業務は、3つの整理で整います。情報整理・業務整理・言語化整理の概念図"
+      class="seiri-map-img"
+    >
+  </div>
+</div>
   <!-- 4-1 情報整理 -->
   <div class="service-section service-01">
     <div class="inner">
